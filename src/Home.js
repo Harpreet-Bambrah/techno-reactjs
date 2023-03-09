@@ -1,7 +1,7 @@
 import introman from './images/introman.png';
 import './Home.css'
 import Intro from './components/Intro';
-import { Outlet } from 'react-router-dom';
+
 
 const Home = () =>{
 
