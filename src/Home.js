@@ -16,7 +16,7 @@ const Home = () =>{
             p='We are 100+ professional software engineers with more than 10 years of experience in delivering superior products.'
             imgsrc={introman} />
         </section>
-        <Outlet/>
+      
         </>
     )
 }

@@ -6,21 +6,22 @@ import Home from './Home';
 import Services from './Services';
 import Contact from './Contact';
 import About from './About';
-import Navbar from './components/Navbar';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
-import Footer from './components/Footer';
+import Layout from './Layout'
 function App() {
   return (
     <React.StrictMode>
-        <Navbar/>
+     
       <Routes>
-        <Route exact path='/' element={<Home/>}/>
-        <Route exact path='/services' element={<Services/>}/>
-        <Route exact path='/contact' element={<Contact/>}/>
-        <Route exact path='/about' element={<About/>}/>
+        <Route path='/' element={<Layout/>} >
+            <Route index element={<Home/>}/>
+            <Route path='/services' element={<Services/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+            <Route path='/about' element={<About/>}/>
+        </Route>
       </Routes>
-      <Footer/>
+   
     </React.StrictMode>
   );
 }
