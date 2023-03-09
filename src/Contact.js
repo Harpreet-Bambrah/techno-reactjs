@@ -18,24 +18,24 @@ const  Contact = () =>{
                         </div>
                         <div className="col-lg-7">
                             <form>
-                                <div class="mb-3">
+                                <div className="mb-3">
                                     <label className="form-label">Enter Your Name</label>
                                     <input type="text" className="form-control" id="name" />
 
                                 </div>
-                                <div class="mb-3">
+                                <div className="mb-3">
                                     <label className="form-label">Email Address</label>
                                     <input type="email" className="form-control" id="exampleInputEmail1" />
 
                                 </div>
-                                <div class="mb-3">
+                                <div className="mb-3">
                                     <label className="form-label">Mobile Number</label>
                                     <input type="text" className="form-control" id="mob" />
 
                                 </div>
-                                <div class="mb-3">
+                                <div className="mb-3">
                                     <label className="form-label">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
 
                                 <button type="submit" className="intro-btn1" style={{border:'none'}}>Submit</button>

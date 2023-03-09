@@ -1,6 +1,6 @@
 
 import './App.css';
-import {Routes,Route} from 'react-router-dom'
+import {Routes,Route, BrowserRouter} from 'react-router-dom'
 import React from 'react';
 import Home from './Home';
 import Services from './Services';
@@ -11,8 +11,8 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import Layout from './Layout'
 function App() {
   return (
-    <React.StrictMode>
-     
+  
+     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Layout/>} >
             <Route index element={<Home/>}/>
@@ -22,7 +22,7 @@ function App() {
         </Route>
       </Routes>
    
-    </React.StrictMode>
+      </BrowserRouter>
   );
 }
 
