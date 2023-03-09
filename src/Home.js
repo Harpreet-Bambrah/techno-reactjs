@@ -1,6 +1,7 @@
 import introman from './images/introman.png';
 import './Home.css'
 import Intro from './components/Intro';
+import { Outlet } from 'react-router-dom';
 
 const Home = () =>{
 
@@ -15,6 +16,7 @@ const Home = () =>{
             p='We are 100+ professional software engineers with more than 10 years of experience in delivering superior products.'
             imgsrc={introman} />
         </section>
+        <Outlet/>
         </>
     )
 }
