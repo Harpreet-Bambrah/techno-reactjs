@@ -1,0 +1,11 @@
+
+.nav-item{
+
+    margin: 0px 10px !important;
+    font-weight: 500;
+}
+
+.active{
+    color: #0c5adb !important;
+ 
+}

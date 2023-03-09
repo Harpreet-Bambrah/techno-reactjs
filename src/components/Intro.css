@@ -1,0 +1,30 @@
+
+.text-color1{
+    color: #0c5adb !important;
+}
+
+.bg-color1{
+    background-color: #0c5adb;
+}
+.bg-color2{
+    background-color: #EFF2F7;
+}
+
+.h1{
+    font-size: calc(30px + 1.5vw) !important;
+}
+
+.intro-btn1{
+    font-size: 17px;
+    background: #0c5adb;
+    padding: 12px 32px;
+    margin-right: 16px;
+    text-decoration: none;
+    border-radius: 2px;
+    color: #ffffff !important;
+}
+
+.intro-btn1:hover{
+    background-color: #0b429b;
+    color: #ffffff !important;
+}
