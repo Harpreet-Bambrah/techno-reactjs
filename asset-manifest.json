@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/techno-reactjs/static/css/main.7198ed10.css",
-    "main.js": "/techno-reactjs/static/js/main.45d073e2.js",
+    "main.css": "/techno-reactjs/static/css/main.34e99fd9.css",
+    "main.js": "/techno-reactjs/static/js/main.aadac4ec.js",
     "static/js/787.a20e048f.chunk.js": "/techno-reactjs/static/js/787.a20e048f.chunk.js",
     "static/media/introman.png": "/techno-reactjs/static/media/introman.efdcf1294401e9cb96c0.png",
     "static/media/introimg.jpg": "/techno-reactjs/static/media/introimg.4b13c0c839844176bc1e.jpg",
@@ -9,12 +9,12 @@
     "static/media/contactimg.jpg": "/techno-reactjs/static/media/contactimg.b71a97ac47680a7ac78b.jpg",
     "static/media/footerimg.jpg": "/techno-reactjs/static/media/footerimg.8c35fe9d653029cb257c.jpg",
     "index.html": "/techno-reactjs/index.html",
-    "main.7198ed10.css.map": "/techno-reactjs/static/css/main.7198ed10.css.map",
-    "main.45d073e2.js.map": "/techno-reactjs/static/js/main.45d073e2.js.map",
+    "main.34e99fd9.css.map": "/techno-reactjs/static/css/main.34e99fd9.css.map",
+    "main.aadac4ec.js.map": "/techno-reactjs/static/js/main.aadac4ec.js.map",
     "787.a20e048f.chunk.js.map": "/techno-reactjs/static/js/787.a20e048f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7198ed10.css",
-    "static/js/main.45d073e2.js"
+    "static/css/main.34e99fd9.css",
+    "static/js/main.aadac4ec.js"
   ]
 }
