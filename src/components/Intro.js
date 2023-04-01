@@ -19,7 +19,7 @@ const Intro =(props)=>{
                         <p className='mb-4'>{props.p}</p>
                     </div>
                     <div>
-                            <Link to='/services' className='intro-btn1' style={{color:'#ffffff'}}>View Details</Link>
+                            <Link to='/techno-reactjs/services' className='intro-btn1' style={{color:'#ffffff'}}>View Details</Link>
                     </div>
                 </div>
             </div>
